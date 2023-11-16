@@ -2,14 +2,9 @@ import React from 'react';
 
 import { images } from '../constants';
 import '../CSS/Best_Captains.css';
+import SubHeading from './SubHeading';
 
 
-const SubHeading = ({title}) => (
-  <div style={{ marginBottom : '1rem'}}>
-    <p className="p__cormorant">{title}</p>
-    <img src={images.spoon} alt='spoon' className='spoon__img'/>
-  </div>
-);
 const Best_Captains = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
